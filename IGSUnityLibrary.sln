@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity", "IGS.Unity\IGS.Unity.csproj", "{E1744AFD-4EA0-4B50-98A3-2A4DC5824880}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity.Events", "IGS.Unity.Events\IGS.Unity.Events.csproj", "{BD6EA4BE-54B9-4B62-94AB-D2F945D17720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity.Tasks", "IGS.Unity.Tasks\IGS.Unity.Tasks.csproj", "{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E1744AFD-4EA0-4B50-98A3-2A4DC5824880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1744AFD-4EA0-4B50-98A3-2A4DC5824880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1744AFD-4EA0-4B50-98A3-2A4DC5824880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6EA4BE-54B9-4B62-94AB-D2F945D17720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6EA4BE-54B9-4B62-94AB-D2F945D17720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6EA4BE-54B9-4B62-94AB-D2F945D17720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6EA4BE-54B9-4B62-94AB-D2F945D17720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

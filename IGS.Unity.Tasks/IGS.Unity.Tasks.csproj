@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E1744AFD-4EA0-4B50-98A3-2A4DC5824880}</ProjectGuid>
+    <ProjectGuid>{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IGS.Unity</RootNamespace>
-    <AssemblyName>IGS.Unity</AssemblyName>
+    <RootNamespace>IGS.Unity.Tasks</RootNamespace>
+    <AssemblyName>IGS.Unity.Tasks</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -40,27 +40,26 @@
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2017.4.40f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2017.4.40f1\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2D\ImageAnimation.cs" />
-    <Compile Include="2D\SpriteAnimationClipSO.cs" />
-    <Compile Include="Extensions\ArrayExtensions.cs" />
-    <Compile Include="Extensions\EqualityExtensions.cs" />
-    <Compile Include="Extensions\ListExtensions.cs" />
-    <Compile Include="Extensions\RandomExtensions.cs" />
-    <Compile Include="Extensions\UIExtensions.cs" />
-    <Compile Include="Pool\IDisposable.cs" />
-    <Compile Include="Pool\IObjectPool.cs" />
-    <Compile Include="Pool\ObjectPool.cs" />
-    <Compile Include="Pool\PooledObject.cs" />
-    <Compile Include="Utilities\FSMLite.cs" />
-    <Compile Include="Utilities\GameLogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utilities\Singleton.cs" />
+    <Compile Include="UTask\Enums.cs" />
+    <Compile Include="UTask\IUTaskCore.cs" />
+    <Compile Include="UTask\IUTaskSource.cs" />
+    <Compile Include="UTask\UTask.cs" />
+    <Compile Include="UTask\UTask.Delay.cs" />
+    <Compile Include="UTask\UTask.Enumerator.cs" />
+    <Compile Include="UTask\UTaskCancellationToken.cs" />
+    <Compile Include="UTask\UTaskCompletionSource.cs" />
+    <Compile Include="UTask\UTaskManager.cs" />
+    <Compile Include="UTask\UTaskRunner.cs" />
+    <Compile Include="Utilities\Yields.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\IGS.Unity\IGS.Unity.csproj">
+      <Project>{e1744afd-4ea0-4b50-98a3-2a4dc5824880}</Project>
+      <Name>IGS.Unity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
