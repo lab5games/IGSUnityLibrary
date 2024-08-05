@@ -7,8 +7,8 @@ namespace IGS.Unity
     [System.Serializable]
     public class SpriteAnimationEvent : UnityEvent<int> { }
 
+    [AddComponentMenu("IGS Unity/2D/Image Animation")]
     [RequireComponent(typeof(Image))]
-    [AddComponentMenu("IGS Library/2D/Image Animation")]
     public class ImageAnimation : MonoBehaviour
     {
         [SerializeField] SpriteAnimationClipSO defaultClip = null;

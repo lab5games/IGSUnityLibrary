@@ -1,9 +1,8 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace IGS.Unity
 {
-    [CreateAssetMenu(menuName ="IGS Library/2D/Sprite Animation Clip", fileName ="New Clip")]
+    [CreateAssetMenu(menuName ="IGS Unity/2D/Sprite Animation Clip", fileName ="New Clip")]
     public class SpriteAnimationClipSO : ScriptableObject
     {
         public enum WrapMode
