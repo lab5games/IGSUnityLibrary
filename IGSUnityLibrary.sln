@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity.Events", "IGS.Uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity.Tasks", "IGS.Unity.Tasks\IGS.Unity.Tasks.csproj", "{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity.Editor", "IGS.Unity.Editor\IGS.Unity.Editor.csproj", "{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF19BEDE-E96C-49FD-B33B-EED4C71EDE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

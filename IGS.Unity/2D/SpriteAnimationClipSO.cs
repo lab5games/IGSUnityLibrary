@@ -12,7 +12,7 @@ namespace IGS.Unity
         }
 
         [SerializeField] string clipName = "clip";
-        [SerializeField] int fps = 30;
+        [SerializeField, Min(1)] int fps = 30;
         [SerializeField] WrapMode wrapMode = WrapMode.Once;
         [SerializeField] Sprite[] frames = null;
 
@@ -26,12 +26,12 @@ namespace IGS.Unity
             set { wrapMode = value; }
         }
 
-        public int TotalFrames { get { return frames.Length; } }  
+        public int TotalFrames { get { return (frames == null) ? 0 : frames.Length; } }  
         
         public float SecondsPerFrame { get { return 1f / fps; } }
 
         public float Length { get { return SecondsPerFrame * TotalFrames; } }
 
-        public Sprite this[int index] { get { return frames[index]; } }
+        public Sprite this[int index] { get { return (frames == null || frames.Length == 0) ? null : frames[index]; } }
     }
 }
