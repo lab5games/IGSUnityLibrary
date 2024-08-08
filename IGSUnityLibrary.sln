@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity.Tasks", "IGS.Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity.Editor", "IGS.Unity.Editor\IGS.Unity.Editor.csproj", "{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IGS.Unity.Audio", "IGS.Unity.Audio\IGS.Unity.Audio.csproj", "{B5CAEF37-0041-464E-9382-741D99EC8066}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9FC6134-C78F-484D-97FB-DD8D8B0194CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CAEF37-0041-464E-9382-741D99EC8066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CAEF37-0041-464E-9382-741D99EC8066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CAEF37-0041-464E-9382-741D99EC8066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CAEF37-0041-464E-9382-741D99EC8066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

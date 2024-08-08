@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using IGS.Unity;
 
 namespace IGS.Unity.Tasks
 {
@@ -17,6 +16,9 @@ namespace IGS.Unity.Tasks
         bool _running = false;
         int _tail = 0;
 
+        public int CountActive { get { return _tail; } }
+
+        public int CountInactive { get { return _taskQueue.Count; } }
 
         public UTaskRunner(UTaskRunnerID runnerID)
         {
@@ -174,7 +176,7 @@ namespace IGS.Unity.Tasks
 
         public override string ToString()
         {
-            return string.Format("Runner - {0}, Active={1}, Waiting={2}", RunnerID, _tail, _taskQueue.Count);
+            return string.Format("Runner - {0}, Active={1}, Waiting={2}", RunnerID, CountActive, CountInactive);
         }
     }
 }
